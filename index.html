@@ -12,6 +12,7 @@
             --text-dim: #7a7a7a;
             --accent: #ff9d00;
             --border: #333333;
+			--tip: #804f00;
         }
 
         body {
@@ -30,6 +31,12 @@
             letter-spacing: 1px;
             margin: 0;
         }
+
+		.tip {
+			color: var(--tip);
+			font-size: 0.85rem;
+			margin-top: 1rem;"
+		}
 
         a { color: var(--accent); text-decoration: none; }
         a:hover { background-color: var(--accent); color: var(--bg-base); }
@@ -128,7 +135,10 @@
             <span class="sys-title">SYSTEM_DIAGNOSTIC // USER: OWEN KAIDER</span>
             <h1>Auto & Tech Projects</h1>
             <p>Documenting the repairs I've made on my used Chrysler, alongside my various hardware and software projects.</p>
-        </header>
+        	
+			<p class="tip">> TIP: Click any image to open the photo album for that project.</p>
+		
+		</header>
 
         <nav>
             <a href="#auto">Auto</a>
